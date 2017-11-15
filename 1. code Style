@@ -1,0 +1,54 @@
+1. code Style
+function 空一行
+UI layout 屬性中 layout 要放在一起, id  >  height/width
+, = 要空一格
+變數-駝峰式命名
+Class 名字要大寫開頭
+interface or holder 變數...命名要有意義
+UI id 除了有意義外，可使用 “_” 分開兩個單字
+
+
+2. 重構：
+MVP 概念
+UI >> Method
+Application.class >> 放啟動就要使用的 物件
+onBindViewHolder 中盡量將控制 UI 放進 holder
+butterknife
+
+3. others:
+歷史紀錄由新到舊
+了解 UI 各屬性
+
+4. Fragment:
+將 activity 改寫為 Fragment
+
+
+
+10/13
+package name : 小寫 開頭 --done
+OnBackStackChangedListener 改寫. 不需要 listen . 直接設定 -- done
+
+
+toolbar 不需要寫在 activity 控制, 嘗試寫在 fragment 手動控制. --done
+
+必須改寫 DB : 不要用 cursor, 使用 list. -- done
+** 記得用完要 Cursor. close();
+
+
+** build gradle 的 dependecies 指定 version ＆ 統一版本 --Done
+
+
+MainPresenter 改寫可 Reference : Navigation.class in Utapass
+
+
+10/16
+signkey
+naming
+icon
+
+
+
+
+
+
+
