@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OneToFiftyGame</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="history_title">History Records</string>
+    <string name="hint_next_one">Next one :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
